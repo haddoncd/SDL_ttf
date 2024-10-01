@@ -85,20 +85,20 @@
     <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>..\include;..\external\freetype\include;..\external\harfbuzz\src;$(SolutionDir)..\..\SDL\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)..\..\SDL\VisualC\$(PlatformName)\$(Configuration);$(LibraryPath)</LibraryPath>
+    <IncludePath>..\include;..\external\freetype\include;..\external\harfbuzz\src;..\external\SDL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\external\SDL\VisualC\$(PlatformName)\$(Configuration);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>..\include;..\external\freetype\include;..\external\harfbuzz\src;$(SolutionDir)..\..\SDL\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)..\..\SDL\VisualC\$(PlatformName)\$(Configuration);$(LibraryPath)</LibraryPath>
+    <IncludePath>..\include;..\external\freetype\include;..\external\harfbuzz\src;..\external\SDL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\external\SDL\VisualC\$(PlatformName)\$(Configuration);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>..\include;..\external\freetype\include;..\external\harfbuzz\src;$(SolutionDir)..\..\SDL\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)..\..\SDL\VisualC\$(PlatformName)\$(Configuration);$(LibraryPath)</LibraryPath>
+    <IncludePath>..\include;..\external\freetype\include;..\external\harfbuzz\src;..\external\SDL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\external\SDL\VisualC\$(PlatformName)\$(Configuration);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>..\include;..\external\freetype\include;..\external\harfbuzz\src;$(SolutionDir)..\..\SDL\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)..\..\SDL\VisualC\$(PlatformName)\$(Configuration);$(LibraryPath)</LibraryPath>
+    <IncludePath>..\include;..\external\freetype\include;..\external\harfbuzz\src;..\external\SDL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)..\external\SDL\VisualC\$(PlatformName)\$(Configuration);$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
